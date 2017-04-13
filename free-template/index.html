@@ -1,6 +1,6 @@
 <html>
 
-<title>Orlando Travel Guide</title>
+<title>Darjeeling Stuffs</title>
 
 <head>
 <!-- Latest compiled and minified CSS -->
@@ -8,7 +8,8 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
+	<!-- Custom CSS -->
+	<link href="css/half-slider.css" rel="stylesheet">
 <!-- Latest compiled and minified JavaScript -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -52,28 +53,70 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<div id="section1" style="background:url('img/a9.jpg')no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}">
-	<div class="container">
+	<!-- Half Page Image Background Carousel Header -->
+	<header id="myCarousel" class="carousel slide">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron text-center" style="margin-top:110px;margin-bottom:110px;padding:40px;background:rgba(1,1,1,0.3)">
-        <h1 style="color:#eee;font-weight:600">Visit <span style="color:rgba(41, 216, 70, 0.8)">Darjeeling</h1>
+		<!-- Wrapper for Slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<!-- Set the first background image using inline CSS below. -->
+				<div class="fill" style="background-image:url('img/a9.jpg')"></div>
+				<div class="carousel-caption">
+					<h2></h2>
+				</div>
+			</div>
+			<div class="item">
+				<!-- Set the second background image using inline CSS below. -->
+				<div class="fill" style="background-image:url('img/a16.jpg');"></div>
+				<div class="carousel-caption">
+					<h2></h2>
+				</div>
+			</div>
+			<div class="item">
+				<!-- Set the third background image using inline CSS below. -->
+				<div class="fill" style="background-image:url('img/a12.jpg');"></div>
+				<div class="carousel-caption">
+					<h2></h2>
+				</div>
+			</div>
+		</div>
 
-        <p style="color:#eee">Here you'll find all the information, <br>events and general information on travelling to Hills.</p>
+		<!-- Controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="icon-prev"></span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="icon-next"></span>
+		</a>
+	</header>
+<!--<div id="section1" style="background:url('img/a9.jpg')no-repeat center center fixed;-->
+  <!-- -webkit-background-size: cover;-->
+  <!-- -moz-background-size: cover;-->
+  <!-- -o-background-size: cover;-->
+  <!--background-size: cover;-->
+<!--}">-->
+	<!--<div class="container">-->
 
-			<!--<p>-->
-			  <!--<a class="btn btn-lg btn-default" href="#" role="button">View Latest News &raquo;</a>-->
-			<!--</p>-->
-      </div>
+      <!--&lt;!&ndash; Main component for a primary marketing message or call to action &ndash;&gt;-->
+      <!--<div class="jumbotron text-center" style="margin-top:110px;margin-bottom:110px;padding:40px;background:rgba(1,1,1,0.3)">-->
+        <!--<h1 style="color:#eee;font-weight:600">Visit <span style="color:rgba(41, 216, 70, 0.8)">Darjeeling</h1>-->
 
-    </div> <!-- /container -->
+        <!--<p style="color:#eee">Here you'll find all the information, <br>events and general information on travelling to Hills.</p>-->
 
-</div>
+			<!--&lt;!&ndash;<p>&ndash;&gt;-->
+			  <!--&lt;!&ndash;<a class="btn btn-lg btn-default" href="#" role="button">View Latest News &raquo;</a>&ndash;&gt;-->
+			<!--&lt;!&ndash;</p>&ndash;&gt;-->
+      <!--</div>-->
+
+    <!--</div> &lt;!&ndash; /container &ndash;&gt;-->
+
+<!--</div>-->
 <div id="section2" >
 	<!--<div class="row" style="background:#29d846">-->
 		<!--<div class="text-center">-->
@@ -84,23 +127,48 @@
 	<div class="row" style="margin-top:20px">
 		<div class="col-md-4">
 			<img src="img/tiger-hills.jpg" class="img-responsive" style="min-height:275px" >
-			<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Tiger Hills</h3>
-			<p  style="background:#eee;margin-top:0px;padding:10px">Tiger Hill (2,590 m) is located in Darjeeling, in the Indian State of West Bengal, and is the summit of Ghoom, the highest railway station in the Darjeeling . <a href="#">Read More..</a></p>
-			<a href="#"><button class="btn btn-block" style="background:#29d846;color:#fff">Take me to Tiger Hills</button></a>
+			<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Darjeeling</h3>
+			<p  style="background:#eee;margin-top:0px;padding:10px">Darjeeling (Nepali: दार्जलिङ) is a town and a municipality in the Indian state of West Bengal.It is located in the Lesser Himalaya at an elevation of 6,700 ft (2,042.2 m). It is  <a href="/darjeeling">Read More..</a></p>
+			<a href="/darjeeling"><button class="btn btn-block" style="background:#29d846;color:#fff">Take me to Tiger Hills</button></a>
 		</div>
 		<div class="col-md-4">
 			<img src="img/pashupati-market.jpg" class="img-responsive" style="min-height:275px">
-			<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Pashupati Market</h3>
-			<p  style="background:#eee;margin-top:0px;padding:10px">Mirik is a picturesque tourist spot nestled in the serene hills of Darjeeling district in West Bengal, India. It is the headquarters of Mirik subdivision.   <a href="#">Read More..</a></p>
-			<a href="#/"><button class="btn btn-block" style="background:#29d846;color:#fff">Take me to Pashupati Market</button></a>
+			<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Sikkim</h3>
+			<p  style="background:#eee;margin-top:0px;padding:10px">Sikkim is a north eastern state of India. It borders China in its north and east, Bhutan in it east, Nepal in its west and the Indian state of West Bengal in its south. Sikkim is also located   <a href="/sikkim">Read More..</a></p>
+			<a href="/sikkim"><button class="btn btn-block" style="background:#29d846;color:#fff">Take me to Pashupati Market</button></a>
 		</div>
 		<div class="col-md-4">
 			<img src="img/toy-train.jpg" class="img-responsive" style="min-height:275px" >
-			<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Toy Train</h3>
-			<p  style="background:#eee;margin-top:0px;padding:10px">The Darjeeling Himalayan Railway, also known as the "Toy Train", is a 2 ft narrow gauge railway that runs between New Jalpaiguri and Darjeeling in the Indian <a href="#">Read More..</a></p>
+			<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Gangtok</h3>
+			<p  style="background:#eee;margin-top:0px;padding:10px">Gangtok is a municipality, the capital and the largest town of the Indian state of Sikkim. It also is the headquarters of the East Sikkim district. Gangtok is located in the eastern Himalayan  <a href="#">Read More..</a></p>
 			<a href="#"><button class="btn btn-block" style="background:#29d846;color:#fff">Take me to Toy Train</button></a>
 		</div>
 	</div>
+		<br/>
+		<div class="row" style="margin-top:20px">
+			<div class="col-md-4">
+				<img src="img/tiger-hills.jpg" class="img-responsive" style="min-height:275px" >
+				<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Darjeeling</h3>
+				<p  style="background:#eee;margin-top:0px;padding:10px">Darjeeling (Nepali: दार्जलिङ) is a town and a municipality in the Indian state of West Bengal.It is located in the Lesser Himalaya at an elevation of 6,700 ft (2,042.2 m). It is  <a href="/darjeeling">Read More..</a></p>
+				<a href="/darjeeling"><button class="btn btn-block" style="background:#29d846;color:#fff">Take me to Tiger Hills</button></a>
+			</div>
+			<div class="col-md-4">
+				<img src="img/pashupati-market.jpg" class="img-responsive" style="min-height:275px">
+				<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Sikkim</h3>
+				<p  style="background:#eee;margin-top:0px;padding:10px">Sikkim is a north eastern state of India. It borders China in its north and east, Bhutan in it east, Nepal in its west and the Indian state of West Bengal in its south. Sikkim is also located   <a href="/sikkim">Read More..</a></p>
+				<a href="/sikkim"><button class="btn btn-block" style="background:#29d846;color:#fff">Take me to Pashupati Market</button></a>
+			</div>
+			<div class="col-md-4">
+				<img src="img/toy-train.jpg" class="img-responsive" style="min-height:275px" >
+				<h3 style="background:#eee;margin-top:0px;padding:10px;font-weight:900;margin-bottom:0px;padding-bottom:0px;border-top:2px solid #29d846;font-family:open"><strong></strong>Gangtok</h3>
+				<p  style="background:#eee;margin-top:0px;padding:10px">Gangtok is a municipality, the capital and the largest town of the Indian state of Sikkim. It also is the headquarters of the East Sikkim district. Gangtok is located in the eastern Himalayan  <a href="#">Read More..</a></p>
+				<a href="#"><button class="btn btn-block" style="background:#29d846;color:#fff">Take me to Toy Train</button></a>
+			</div>
+		</div>
+	</div>
+		<br/>
+
+
 		
 	</div>
 	
@@ -114,18 +182,18 @@
 			<!--<div class="row" style="background:#eee;padding-bottom:10px">-->
 			  <!--<div class="col-md-4 text-center" >-->
 				<!--<h3>Things to do</h3>-->
-				<!--<img src="img/coaster.jpg" class="img-responsive" style="border:5px solid #fff;min-height:212px">-->
+				<!--<img src="img/.jpg" class="img-responsive" style="border:5px solid #fff;min-height:212px">-->
 				<!--<button class="btn btn-default btn-block">View Things To Do</button>-->
 			  <!--</div>-->
 			    <!--<div class="col-md-4 text-center">-->
 				<!--<h3>Tickets</h3>-->
-				<!--<img src="img/tickets.png" class="img-responsive" style="border:5px solid #fff;min-height:212px">-->
+				<!--<img src="img/.png" class="img-responsive" style="border:5px solid #fff;min-height:212px">-->
 				<!--<button class="btn btn-default btn-block">Grab Tickets</button>-->
 
 			  <!--</div>-->
 			    <!--<div class="col-md-4 text-center" style="min-height:212px">-->
 				<!--<h3>Flights</h3>-->
-				<!--<img src="img/aircraft.jpg" class="img-responsive" style="border:5px solid #fff;min-height:212px">-->
+				<!--<img src="img/.jpg" class="img-responsive" style="border:5px solid #fff;min-height:212px">-->
 				<!--<button class="btn btn-default btn-block">View The Best Flight Details</button>-->
 
 			  <!--</div>-->
